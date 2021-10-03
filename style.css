@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: #EDD5BD;
     margin: 0;
     padding: 0;
     display: flex;
@@ -20,9 +20,10 @@ body {
 .instagram-wrapper {
     display: flex;
     align-items: center;
-    justify-content: start;
-    width: 60%;
+    justify-content: center;
+    width: 50%;
     height: 100vh;
+    flex-direction: row;
 }
 
 .instagram-phone {
@@ -33,13 +34,15 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 46rem;
 }
 
 .instagram-continue {
     display: flex;
-    align-items: center; /* horizontal */
-    justify-content: space-around; /* vertical */
+    align-items: center;
+    /* horizontal */
+    justify-content: space-around;
+    /* vertical */
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -50,10 +53,10 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #EDD5BD;
     width: 100%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    border: 1px solid #0D1117;
 }
 
 .group:nth-child(1) {
@@ -77,23 +80,23 @@ body {
 }
 
 .instagram-login {
-    background-color: #0095f6;
-    color: #ffffff;
+    background-color: #2085FF;
+    color: #EDD5BD;
     padding: 8px;
     border-radius: 4px;
 }
 
 .instagram-logout {
-    color: #0095f6;
+    color: #2085FF;
     margin-top: 1rem;
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    color: #0D1117;
 }
 
 .link-blue {
-    color: #0095f6;
+    color: #2085FF;
 }
 
 .get-the-app {
@@ -127,8 +130,8 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
-/* media queries */
 
+/* media queries */
 
 @media (max-width: 1024px) {
     .instagram-wrapper {
@@ -138,21 +141,17 @@ body {
 
 @media (max-width: 650px) {
     body {
-        background-color: #ffffff;
+        background-color: #EDD5BD;
     }
-
     .instagram-wrapper {
         width: 90%;
     }
-
     .instagram-phone {
         display: none;
     }
-
     .instagram-continue {
         width: 100%;
     }
-    
     .group {
         border: 1px solid transparent;
     }
