@@ -1,10 +1,11 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# Customização do projeto de clone do instagram - Digital Innovation One 🙃
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+Projeto de customização da interface de login do Instagram! 
 
-### Os requisitos são:
+### Tecnologias usadas:
 
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* HTML
+* CSS
 
-## 🚀 Let's code! 🚀
+## 🛰 Let's code!🛰
+
